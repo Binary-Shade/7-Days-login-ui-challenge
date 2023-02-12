@@ -1,0 +1,49 @@
+ /* Developer Binary-Shade */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+body{  /*for body content*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://user-images.githubusercontent.com/115919438/218326452-452b8592-760a-43cb-9174-021248a4aecd.jpeg");
+    background-position: center;
+    background-repeat: inherit;
+    background-size: cover;
+}
+.login h2{   /*h2 content */
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.login{  /* Glass morphism */
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    background: rgba(187, 210, 203, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(219, 235, 230, 0.9);
+}
+.login form .form-group{  
+    margin-bottom: 30px;
+}
+.login form input[type="submit"]{ /* submit button Hover effect */
+    margin-left: 120px;
+    border: 3px;
+    border-color: black;
+    background: rgb(88, 102, 83);
+}
+.login form input[type="submit"]:hover{
+        color: #fff;
+        background-color: rgba(133, 127, 127, 0.5);
+        color: black;
+        
+}

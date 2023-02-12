@@ -1,0 +1,32 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
+*{
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0066ff;
+}
+.login h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.login{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+.login form .form-group{
+    margin-bottom: 10px;
+}
+.login form input[type="submit"]{
+    margin-left: 120px;
+}
