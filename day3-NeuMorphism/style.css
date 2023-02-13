@@ -1,0 +1,50 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ffffff;
+}
+.login  h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.login {
+    margin-left: 30px;
+    width: 320px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow:  30px 30px 59px #b9c0bd,
+                -30px -30px 59px #bec4c1;
+}
+.login .form-group{
+    margin-bottom: 20px;
+}
+.login .form-group input[type="email"]{
+    width: 280px;
+}
+.login .form-group input[type="password"]{
+    width: 280px;
+}
+.login input[type="submit"]{
+    margin-left: 85px;
+    border-radius: 5px;
+    width: 120px;
+    background-color: #9eaca6;
+    border-width: 1px;
+    box-shadow: 30px 30px 59px #c8cecb,
+    -30px -30px 59px #949c99;
+    height: 40px;
+}
+img{
+    height: 400px;
+    width: 420px; 
+}
