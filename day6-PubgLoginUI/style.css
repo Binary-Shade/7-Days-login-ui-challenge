@@ -1,0 +1,101 @@
+ /* Developer - Binary-Shade */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    color: black;
+}
+
+body{
+    background:linear-gradient(45deg,
+    rgba(148, 126, 125, 0.651),
+    rgba(54, 56, 58, 0.342)), url("https://images.hdqwalls.com/wallpapers/2020-pubg-helmet-game-4k-nv.jpg");
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* https://user-images.githubusercontent.com/115919438/219433285-6eae9b88-bc57-4215-a061-3bc17b2a214e.png */
+
+.login{
+    padding: 0px 5px 5px;
+    padding-left: 10px;
+    width: 570px;
+    height: 520px;
+    border-radius: 12px;
+    background: rgba(133, 124, 124, 0.726);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
+}
+img{
+    width: 260px;
+    height: 90px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+.login .line{
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.555);
+    height: 2px;
+    width: 100%;
+    overflow: hidden;
+}
+.login form .para{
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.login form h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login .form-group{
+    padding: 0px 40px ;
+}
+
+.login form .form-group input[type="email"]{
+    width: 470px;
+    height: 40px;
+    padding: 1rem;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.267);
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+.login form .form-group input[type="password"]{
+    width: 470px;
+    height: 40px;
+    padding: 1rem;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.267);
+    border: none;
+    color: white;
+    border-radius: 12px;
+}
+.login form input[type="submit"]{
+    width: 150px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+.login form .footer{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+.login form .footer a{
+   margin-left: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+.login form .footer p{
+    margin-left: 30px;
+    display: inline-block;
+}   
